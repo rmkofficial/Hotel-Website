@@ -1,4 +1,5 @@
 /* Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +7,7 @@
 }
 
 /* Main Styling */
+
 html,
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -30,6 +32,7 @@ p {
 }
 
 /* Utility Classes */
+
 .container {
     margin: auto;
     max-width: 1200px;
@@ -50,7 +53,6 @@ p {
     display: inline-block;
     font-size: 20px;
     color: white;
-    /* background-color: rgb(128, 122, 122); */
     padding: 13px 20px;
     border: none;
     cursor: pointer;
@@ -178,6 +180,8 @@ p {
     margin-bottom: 10px;
 }
 
+/* About Info */
+
 #about-info {
     background-color: rgb(83, 83, 81);
     padding: 30px;
@@ -214,6 +218,7 @@ p {
 }
 
 /* Testimonials */
+
 #testimonials {
     height: 600px;
     /* background-image: url(../img/test-bg.jpg) no-repeat center center/cover; */
@@ -221,7 +226,7 @@ p {
     background-image: url(../img/test-bg.jpg);
 }
 
-#testimonials img{
+#testimonials img {
     width: 100px;
     float: left;
     margin-right: 20px;
@@ -247,6 +252,80 @@ p {
     width: 100px;
 }
 
+/* Contact Form */
+
+#contact-form {
+    margin-left: 0;
+    margin-right: 0;
+    background-color: rgb(83, 83, 81);
+}
+
+#contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form h1 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#contact-form p {
+    
+    text-align: center;
+    
+}
+
+#contact-form h1 span {
+    color: rgb(231, 161, 31);
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: solid 1px;
+}
+
+#contact-form textarea {
+    height: 200px;
+}
+
+#contact-form .btn {
+    background-color: white;
+    color: rgb(231, 161, 31);
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: rgb(231, 161, 31);
+}
+
+#contact-form .btn{
+    margin-bottom: 10px;
+    background-color: #333;
+}
+
+#contact-form .btn:hover{
+    color: white;
+}
+
+/* Contact Info */
+
+#contact-info {
+    background-color: #333;
+}
+
+#contact-info .container {
+    display: block;
+    margin: 0 auto;
+}
 
 
 /* Footer */
