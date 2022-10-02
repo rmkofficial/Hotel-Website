@@ -85,7 +85,7 @@ p {
     color: white;
 }
 
-#navbar h1 {
+#navbar .logo {
     float: left;
     padding-top: 20px;
     /* padding-left: 25px; */
@@ -141,7 +141,7 @@ p {
 /* Home Info */
 
 #home-info {
-    height: 400px;
+    height: 450px;
 }
 
 #home-info .info-img {
@@ -220,7 +220,7 @@ p {
 /* Testimonials */
 
 #testimonials {
-    height: 600px;
+    height: 100%;
     /* background-image: url(../img/test-bg.jpg) no-repeat center center/cover; */
     padding-top: 100px;
     background-image: url(../img/test-bg.jpg);
@@ -276,9 +276,9 @@ p {
 }
 
 #contact-form p {
-    
+
     text-align: center;
-    
+
 }
 
 #contact-form h1 span {
@@ -307,12 +307,12 @@ p {
     border-color: rgb(231, 161, 31);
 }
 
-#contact-form .btn{
+#contact-form .btn {
     margin-bottom: 10px;
     background-color: #333;
 }
 
-#contact-form .btn:hover{
+#contact-form .btn:hover {
     color: white;
 }
 
